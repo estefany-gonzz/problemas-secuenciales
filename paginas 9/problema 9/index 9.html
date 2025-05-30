@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Costo de Llamada Telefónica</title>
+    <link rel="stylesheet" href="style 9.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Costo de Llamada 📞</h1>
+        <p>Calcula el costo según la duración de la llamada y el precio por minuto.</p>
+
+        <form id="formLlamada">
+            <label for="minutos">Duración de la llamada (minutos):</label>
+            <input type="number" id="minutos" required min="1">
+
+            <label for="costoMin">Costo por minuto (MXN):</label>
+            <input type="number" id="costoMin" required min="0.01" step="any">
+
+            <button type="button" id="calcular">Calcular Costo</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="vinculadores 9.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo de Viaje en Bicicleta</title>
+    <link rel="stylesheet" href="style 8.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Tiempo de Viaje 🚴</h1>
+        <p>Calcula el tiempo estimado para llegar de una ciudad a otra en bicicleta.</p>
+
+        <form id="formTiempo">
+            <label for="distancia">Distancia entre ciudades (km):</label>
+            <input type="number" id="distancia" required min="1">
+
+            <label for="velocidad">Velocidad constante (km/h):</label>
+            <input type="number" id="velocidad" required min="1" step="any">
+
+            <button type="button" id="calcular">Calcular Tiempo</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="vinculadores 8.js"></script>
+</body>
+</html>

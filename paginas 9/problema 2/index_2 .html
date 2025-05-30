@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión MXN a USD</title>
+    <link rel="stylesheet" href="style 2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Pesos a Dólares</h1>
+        <form id="currencyForm">
+            <label for="pesos">Cantidad en Pesos (MXN):</label>
+            <input type="number" id="pesos" name="pesos" step="any" required>
+
+            <label for="tipoCambio">Tipo de cambio (1 USD = ? MXN):</label>
+            <input type="number" id="tipoCambio" name="tipoCambio" step="any" required>
+
+            <button type="submit">Convertir</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <!-- JS externo -->
+    <script src="vinculadores 2.js"></script>
+</body>
+</html>
+

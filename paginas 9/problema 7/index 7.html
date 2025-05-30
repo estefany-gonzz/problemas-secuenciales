@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Curva Loca - Costo del Boleto</title>
+    <link rel="stylesheet" href="style 7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Costo de Boleto</h1>
+        <p>Empresa: La Curva Loca 🚌</p>
+
+        <form id="formBoleto">
+            <label for="kms">Kilómetros a recorrer:</label>
+            <input type="number" id="kms" name="kms" required min="1">
+
+            <label for="costoKm">Costo por kilómetro (MXN):</label>
+            <input type="number" id="costoKm" name="costoKm" required min="0.1" step="any">
+
+            <button type="button" id="calcular">Calcular Costo</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="vinculadores 7.js"></script>
+</body>
+</html>
